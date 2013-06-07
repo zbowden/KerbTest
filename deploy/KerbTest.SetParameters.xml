@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="Default Web Site/KerbTest_deploy" />
+  <setParameter name="DefaultConnection-Web.config Connection String" value="Data Source=(LocalDb)\v11.0;Initial Catalog=aspnet-KerbTest-20130510161134;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\aspnet-KerbTest-20130510161134.mdf" />
+  <setParameter name="SQLConnectionString-Web.config Connection String" value="Data Source=sql_server_fqdn;Initial Catalog=master;Integrated Security=True" />
+  <setParameter name="PGConnection-Web.config Connection String" value="DSN=MBTASP_DSN" />
+</parameters>
