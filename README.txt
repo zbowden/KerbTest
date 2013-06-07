@@ -15,6 +15,8 @@ That will deploy it and then you can modify the application pool and web applica
 	4. In order for delegation to work, you will need to ensure that you have the appropriate SPN setup for your web service -- the service is HTTP and the address needs to be
 		the same address in which you will access the KerbTest website. For instance, if my server name is WEBSERVER$ and I want to access it via webserver.company.com I need to:
 			setspn -A HTTP/webserver.company.com webserver
+	5. Ensure that the WEBSERVER$ object is trusted for delegation. This can be configured via the Delegation tab on the computer object:
+		Trust this computer for delegation to any service (Kerberos only) is the most straight-forward selection. 
 
 
 Configuration:
@@ -27,3 +29,8 @@ Configuration:
 	2. Postgres -- just point to the name of the DSN you created for testing the postgres connection (or you can configure a connection string):
 
     <add name="PGConnection" connectionString="DSN=MBTASP_DSN" providerName="System.Data.Odbc"/>
+
+
+Testing:
+	1. Use Internet Explorer to test in order to easily use Kerberos.
+	2. Add the webserver you're using to the Trusted sites of your Internet Explorer instance in order to allow Kerberos/impersonation to work.
