@@ -4,7 +4,7 @@
 <html lang="en">
 <head runat="server">
     <meta charset="utf-8" />
-    <title><%: Page.Title %> - My ASP.NET Application</title>
+    <title><%: Page.Title %> - KerbTest</title>
     <asp:PlaceHolder runat="server">     
           <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>  
@@ -76,9 +76,9 @@
     <footer>
         <div class="content-wrapper">
             <div class="float-left">
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                <p>&copy; <%: DateTime.Now.Year %> - Zeb Bowden. zbowden@vt.edu All Rights Reserved.</p>
             </div>
-        </div>
+           </div>
     </footer>
     </form>
 </body>

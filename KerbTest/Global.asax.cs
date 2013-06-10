@@ -1,4 +1,18 @@
-﻿using System;
+﻿//~ Copyright (C) 2013 Zeb Bowden. zbowden@vt.edu All Rights Reserved.
+//
+//~ This file is part of KerbTest.
+//
+//~  KerbTest is distributed in the hope that it will be useful,
+//~ but WITHOUT ANY WARRANTY; without even the implied warranty of
+//~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
+//
+//
+//
+
+
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
